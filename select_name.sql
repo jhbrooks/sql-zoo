@@ -35,6 +35,7 @@ FROM world
 WHERE name LIKE '%oo%';
 
 -- 7. The countries with three or more occurrences of a in their names
+
 SELECT name
 FROM world
 WHERE name LIKE '%a%a%a%';
